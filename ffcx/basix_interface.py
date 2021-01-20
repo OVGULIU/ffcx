@@ -14,7 +14,11 @@ basix_cells = {
 # This dictionary can be used to map ufl element names to basix element names.
 # Currently all the names agree but this will not necessarily remian true.
 ufl_to_basix_names = {
-    "DQ": "Discontinuous Lagrange"
+    "DQ": "Discontinuous Lagrange",
+    "RTCE": "Qcurl",
+    "RTCF": "Qdiv",
+    "NCE": "Qcurl",
+    "NCF": "Qdiv"
 }
 
 
